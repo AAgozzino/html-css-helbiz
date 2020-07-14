@@ -44,6 +44,7 @@ h1{
 .main-menu {
   text-align: right;
 }
+
 .main-menu li {
   padding-left: 30px;
 }
@@ -92,4 +93,44 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* MAIN */
+
+/* Sezione 1 - prodotti */
+
+.prodotti{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Sezione 2 - come funziona */
+.banner{
+  position: relative;
+  background-image: url(../img/oldman.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.banner .down{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* sezione 3 - info */
+.wrapper{
+  margin-top: 150px;
+}
+
+/* FOOTER */
+.bg-footer{
+  width: 100%;
+  height: 500px;
+  background-color: #000;
 }
