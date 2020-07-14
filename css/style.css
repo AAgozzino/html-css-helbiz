@@ -12,6 +12,15 @@ a {
   display: inline-block;
 }
 
+/* Tipografia */
+h1{
+  color: #fff;
+  font-size: 3rem;
+}
+
+.text-white{
+  color: #fff;
+}
 /* HEADER */
 
 /* header top */
@@ -36,7 +45,7 @@ a {
   text-align: right;
 }
 .main-menu li {
-  padding-right: 30px;
+  padding-left: 30px;
 }
 .main-menu li a {
   color: #212529;
@@ -75,4 +84,12 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
