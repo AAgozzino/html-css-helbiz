@@ -16,10 +16,31 @@ a {
 h1{
   color: #fff;
   font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.8;
+  white-space: nowrap;
+}
+
+p{
+  line-height: 1.5;
 }
 
 .text-white{
   color: #fff;
+}
+/* Tablet 769 - 992 */
+@media screen and (min-width: 769px) and (max-width: 992px){
+  h1{
+    font-size: 3rem;
+  }
+}
+
+/* Smartphone < 768px */
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 2rem;
+    white-space: normal;
+  }
 }
 /* HEADER */
 
@@ -95,6 +116,19 @@ h1{
   text-align: center;
 }
 
+.app-store img{
+  /* max-height: 50px; */
+  max-width: 150px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+/* Smartphone < 768px */
+@media screen and (max-width: 768px){
+  .app-store img{
+    max-width: 110px;
+  }
+}
 /* MAIN */
 
 /* Sezione 1 - prodotti */
